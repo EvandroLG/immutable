@@ -2,11 +2,19 @@
 
 `immutable` is a tiny library that makes easy to work with immutable data.
 
+## Installation
+
+To install `immutable` run:
+
+```bash
+$ luarocks install immutable
+```
+
 ## How does it work?
 
 `immutable` is highly inspired by `Immer`, a popular JavaScript library to work with immutable states in a simple way. If you are already familiar with how this JavaScript library works, `immutable` won’t bring anything new for you.
 
-In the end of the day, `immutable` is just a function that takes two arguments, the first one is the object state that we want to start from and the second argument is a function that is passed a `draft` that we can apply straightforward mutations. Those mutations will be used to produce the next state, taking care of any necessary copy and without changing the initial object.
+In the end of the day, `immutable` is just a function that takes two arguments: the first one is the object state that we want to start from and the second argument is a function that is passed a `draft` that we can apply straightforward mutations. Those mutations will be used to produce the next state, taking care of any necessary copy and without changing the initial object.
 
 ```lua
   local immutable = require 'immutable'
