@@ -1,4 +1,4 @@
-# immutable &middot; [![Build Status](https://travis-ci.org/EvandroLG/immutable.svg?branch=master)](https://travis-ci.org/EvandroLG/immutable) [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
+# immutable &middot; [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
 
 `immutable` is a tiny library that makes easy to work with immutable data.
 
