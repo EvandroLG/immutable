@@ -1,5 +1,5 @@
 package = 'immutable'
-version = '1.0.0-0'
+version = 'dev-1'
 
 source = {
   url = 'git+https://github.com/evandrolg/immutable.git',
