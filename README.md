@@ -7,7 +7,7 @@
 To install `immutable` run:
 
 ```bash
-$ luarocks install immutable
+$ luarocks install --server=http://luarocks.org/dev immutable
 ```
 
 ## How does it work?
